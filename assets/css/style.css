@@ -246,6 +246,7 @@ li {
   width: 5.1%;
   height: 4px;
   display: inline-block;
+  transition: all ease-in-out 1s;
   background-color: #E0E0E0;
   text-indent: -9999px;
 }
