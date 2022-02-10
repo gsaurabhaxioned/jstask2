@@ -99,7 +99,7 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
+  max-width: 1519px;
   width: 86%; 
   margin: 0 auto;
 }
@@ -120,7 +120,28 @@ li {
   main styling starts here
 =================================*/
 
+/* progress steps styling starts  */
 
+.progress-steps {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.step-number {
+  width: 20px;
+  height: 20px;
+  padding-top: 2px;
+  border: 1px solid #3498DB;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.step-path {
+  text-indent: -9999px;
+  background-color: #3498DB;
+}
 
 
 
