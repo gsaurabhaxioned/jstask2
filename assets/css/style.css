@@ -227,7 +227,13 @@ li {
   color: #929496;
   display: inline-block;
   text-align: center;
+  transition: all ease-in-out 2s;
+  -webkit-transition: all ease-in-out 2s;
+  -moz-transition: all ease-in-out 2s;
+  -ms-transition: all ease-in-out 2s;
+  -o-transition: all ease-in-out 2s;
 }
+
 .step-number:nth-child(1) {
   border-color: #3498db;
 }
@@ -246,9 +252,13 @@ li {
   width: 5.1%;
   height: 4px;
   display: inline-block;
-  transition: all ease-in-out 1s;
   background-color: #E0E0E0;
   text-indent: -9999px;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
 }
 
 .progress-controls button {
