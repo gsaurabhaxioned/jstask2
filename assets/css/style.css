@@ -215,13 +215,13 @@ li {
 /* progress steps styling starts  */
 
 .progress-steps {
-  margin-top: 22%;
+  margin-top: 21.5%;
 }
 
 .step-number {
   width: 20px;
   height: 20px;
-  padding-top: 2px;
+  padding: 2px;
   border: 3px solid #E0E0E0;
   border-radius: 100%;
   color: #929496;
